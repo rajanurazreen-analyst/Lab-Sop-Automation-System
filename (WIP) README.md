@@ -8,11 +8,13 @@ This project solves the challenge of manual document tracking in a regulated lab
 
 
 The Problem
-In a high-compliance laboratory setting, tracking hundreds of SOPs manually using a spreadsheet is high-risk.
+In a high-stakes, compliant microbiology lab, managing hundreds of document lifecycles manually via standard spreadsheets poses significant operational risks:
 
+High Risk of Human Error: Manual date checking relies on memory and routine, leading to potential oversight.
 
-Risks: Human error in checking dates, missed expiry deadlines, and potential audit non-compliance
-Infrequency: Manual checks were only performed weekly, leading to a reactive rather than proactive workflow
+Audit Non-Compliance: Missed SOP review deadlines can cause major findings during strict quality audits.
+
+Operational Inefficiency: Manually flagging expiring documents and chasing owners via email consumes valuable technical hours that could be spent on laboratory testing.
 
 	
 Tech Stack
@@ -31,14 +33,14 @@ I desgined a workflow as following:
    - 7 days Prior: Sends a 'Final Warning' alert
    - Expired: Flags the status as 'Non-compliant' in the master list.
 
-Workflow Visualization
-(WIP)
 
 Impact and Results
 -Efficiency : Eliminated 2 hours of manual verification per month
 -Compliance: Reduced missed review deadlines to 0%
 -Scalability: The system can be easily expanded to track equipment calibration, inventory tracking or staff training records.
 
-Repository Structure
-- SOP
+Project Roadmap (Upcoming Updates)
+[ ] Upload a fully sanitized Excel tracker template (removing real company titles and personal emails).
+
+[ ] Add structured screenshots of the Power Automate logic blocks.
 
