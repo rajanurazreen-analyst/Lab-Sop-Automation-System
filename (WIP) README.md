@@ -43,4 +43,4 @@ Project Roadmap (Upcoming Updates)
 [ ] Upload a fully sanitized Excel tracker template (removing real company titles and personal emails).
 
 [ ] Add structured screenshots of the Power Automate logic blocks.
-
+![Power Automate Flow Logic](images/Power_Automate_Workflow.jpeg)
