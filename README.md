@@ -27,13 +27,11 @@ I desgined a workflow as following:
 2. Daily Trigger: A Power Automate flows runs every morning to scan the table
 3. Conditional Logic: The system calculates the difference between Today() and the expiry_date
 4. The exact Power Automate expression used to calculate this day threshold is:
-   formatDateTime(addDays('1899-12-30', int(items('Apply_to_each')?['Review Date'])),'yyyy-MM-dd')    is less than or equal to    formatDateTime(addDays(utcNow(),30),'yyyy-MM-dd')
+   formatDateTime(addDays('1899-12-30', int(items('Apply_to_each')?['Review Date'])),'yyyy-MM-dd') is less than or equal to    formatDateTime(addDays(utcNow(),30),'yyyy-MM-dd')
 6. Tiered Alerts:
-   - 30 Days Prior: Sends an intitial 'Re+
-   - ki3mnjview Required' email to the SOP owner
+   - 30 Days Prior: Sends an intitial 'Required' email to the SOP owner
    - 7 days Prior: Sends a 'Final Warning' alert
    - Expired: Flags the status as 'Non-compliant' in the master list.
-
 
 Impact and Results
 -Efficiency : Eliminated 2 hours of manual verification per month
