@@ -40,8 +40,4 @@ Impact and Results
 -Compliance: Reduced missed review deadlines to 0%
 -Scalability: The system can be easily expanded to track equipment calibration, inventory tracking or staff training records.
 
-Project Roadmap (Upcoming Updates)
-[ ] Upload a fully sanitized Excel tracker template (removing real company titles and personal emails).
-
-
 ![Power Automate Flow Logic](images/Power_Automate_Workflow.jpeg)
