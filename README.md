@@ -1,6 +1,3 @@
-
-⚠️ Note: This project is currently a Work in Progress. I am documenting the automation logic and sanitizing the data templates for public viewing
-
 # Lab-SOP-Automation-Inventory
 Lab Automation for Expiry Records
 
